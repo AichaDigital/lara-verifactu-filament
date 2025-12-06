@@ -2,9 +2,9 @@
 
 namespace AichaDigital\LaraVerifactuFilament;
 
+use AichaDigital\LaraVerifactuFilament\Commands\LaraVerifactuFilamentCommand;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use AichaDigital\LaraVerifactuFilament\Commands\LaraVerifactuFilamentCommand;
 
 class LaraVerifactuFilamentServiceProvider extends PackageServiceProvider
 {

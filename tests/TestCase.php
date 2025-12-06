@@ -2,9 +2,9 @@
 
 namespace AichaDigital\LaraVerifactuFilament\Tests;
 
+use AichaDigital\LaraVerifactuFilament\LaraVerifactuFilamentServiceProvider;
 use Illuminate\Database\Eloquent\Factories\Factory;
 use Orchestra\Testbench\TestCase as Orchestra;
-use AichaDigital\LaraVerifactuFilament\LaraVerifactuFilamentServiceProvider;
 
 class TestCase extends Orchestra
 {
