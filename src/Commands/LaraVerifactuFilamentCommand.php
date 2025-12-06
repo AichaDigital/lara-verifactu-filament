@@ -1,12 +1,12 @@
 <?php
 
-namespace VendorName\Skeleton\Commands;
+namespace AichaDigital\LaraVerifactuFilament\Commands;
 
 use Illuminate\Console\Command;
 
-class SkeletonCommand extends Command
+class LaraVerifactuFilamentCommand extends Command
 {
-    public $signature = 'skeleton';
+    public $signature = 'lara-verifactu-filament';
 
     public $description = 'My command';
 

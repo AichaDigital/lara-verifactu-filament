@@ -1,22 +1,25 @@
 {
-    "name": ":vendor_slug/:package_slug",
-    "description": ":package_description",
+    "name": "aichadigital/lara-verifactu-filament",
+    "description": "Filament admin panel for Lara-Verifactu (AEAT Spain)",
     "keywords": [
-        ":vendor_name",
+        "Aicha Digital",
         "laravel",
-        ":package_slug"
+        "lara-verifactu-filament"
     ],
-    "homepage": "https://github.com/:vendor_slug/:package_slug",
+    "homepage": "https://github.com/aichadigital/lara-verifactu-filament",
     "license": "MIT",
     "authors": [
         {
-            "name": ":author_name",
-            "email": "author@domain.com",
+            "name": "Abdelkarim Mateos Sanchez",
+            "email": "abdelkarim.mateos@castris.com",
             "role": "Developer"
         }
     ],
     "require": {
         "php": "^8.4",
+        "aichadigital/lara-verifactu": "^0.1",
+        "aichadigital/larabill-filament": "^0.1",
+        "filament/filament": "^4.0",
         "spatie/laravel-package-tools": "^1.16",
         "illuminate/contracts": "^11.0||^12.0"
     },
@@ -35,13 +38,13 @@
     },
     "autoload": {
         "psr-4": {
-            "VendorName\\Skeleton\\": "src/",
-            "VendorName\\Skeleton\\Database\\Factories\\": "database/factories/"
+            "AichaDigital\\LaraVerifactuFilament\\": "src/",
+            "AichaDigital\\LaraVerifactuFilament\\Database\\Factories\\": "database/factories/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "VendorName\\Skeleton\\Tests\\": "tests/",
+            "AichaDigital\\LaraVerifactuFilament\\Tests\\": "tests/",
             "Workbench\\App\\": "workbench/app/"
         }
     },
@@ -63,10 +66,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "VendorName\\Skeleton\\SkeletonServiceProvider"
+                "AichaDigital\\LaraVerifactuFilament\\LaraVerifactuFilamentServiceProvider"
             ],
             "aliases": {
-                "Skeleton": "VendorName\\Skeleton\\Facades\\Skeleton"
+                "LaraVerifactuFilament": "AichaDigital\\LaraVerifactuFilament\\Facades\\LaraVerifactuFilament"
             }
         }
     },
