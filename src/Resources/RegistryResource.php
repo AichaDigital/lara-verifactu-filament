@@ -7,7 +7,7 @@ namespace AichaDigital\LaraVerifactuFilament\Resources;
 use AichaDigital\LaraVerifactu\Enums\RegistryStatusEnum;
 use AichaDigital\LaraVerifactu\Models\Registry;
 use AichaDigital\LaraVerifactuFilament\Resources\RegistryResource\Pages;
-use Filament\Infolists\Components\Section;
+use Filament\Schemas\Components\Section;
 use Filament\Infolists\Components\TextEntry;
 use Filament\Resources\Resource;
 use Filament\Schemas\Schema;
