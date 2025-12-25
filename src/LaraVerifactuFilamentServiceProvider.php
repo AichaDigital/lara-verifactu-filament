@@ -4,7 +4,6 @@ declare(strict_types=1);
 
 namespace AichaDigital\LaraVerifactuFilament;
 
-use AichaDigital\LaraVerifactuFilament\Commands\LaraVerifactuFilamentCommand;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
 
